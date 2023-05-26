@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>ブログサイト</title>
+    <meta name="description" content="初めてのHTML入門">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="site-title"><a href="index.html">初めてのブログ</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="icon" src="./assets/instagram.png" alt="インスタグラム">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="about" class="wrapper">
+                <h2 class="sec-title">About</h2>
+                <ul class="nav-link">
+                    <li>Tech.Uni太郎</li>
+                    <li>2021年生まれ</li>
+                    <li>tel: 000-0000-0000</li>
+                    <li>url: https://twitter.com/TechUni1026</li>
+                    <li>mail: techuni1026@gmail.com</li>
+                </ul>
+                <p>
+                    ここに色々書いてみよう！
+                </p>
+            </section>
+        </div>
+
+        <section id="works" class="wrapper">
+            <h2 class="sec-title">Works</h2>
+            <ul>
+                <li><img src="./assets/repro.jpg" alt="テキストテキストテキスト"></li>
+                <li><img src="./assets/flowers.jpg" alt="テキストテキストテキスト"></li>
+                <li><img src="./assets/boat.jpg" alt="テキストテキストテキスト"></li>
+                <li><img src="./assets/beach.jpg" alt="テキストテキストテキスト"></li>
+                <li><img src="./assets/mountain.jpg" alt="テキストテキストテキスト"></li>
+                <li><img src="./assets/laptop.jpg" alt="テキストテキストテキスト"></li>
+            </ul>
+        </section>
+
+        <section id="news" class="wrapper">
+            <h2 class="sec-title">News</h2>
+            <dl>
+                <dt>2023.XX.XX</dt>
+                <dd>【イベント開催のお知らせ】</dd>
+                <dt>2023.XX.XX</dt>
+                <dd>【イベント開催のお知らせ】</dd>
+                <dt>2022.XX.XX</dt>
+                <dd>【イベント開催のお知らせ】</dd>
+                <dt>2022.XX.XX</dt>
+                <dd>【イベント開催のお知らせ】</dd>
+                <dt>2022.XX.XX</dt>
+                <dd>【個展開催のお知らせ】</dd>
+            </dl>
+        </section>
+
+        <section id="contact" class="wrapper">
+            <h2 class="sec-title">Contact</h2>
+            <form action="#" method="post">
+                <dl>
+                    <dt><label for="name">NAME</label></dt>
+                    <dd><input type="text" id="name" name="your-name"></dd>
+                    <dt><label for="email">E-mail</label></dt>
+                    <dd><input type="email" id="email" name="your-email"></dd>
+                    <dt><label for="message">MESSAGE</label></dt>
+                    <dd><textarea id="message" name="your-message"></textarea></dd>
+                </dl>
+                <div class="button"><input type="submit" value="送信"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 2023 Tech.Uni</p>
+    </footer>
+
+</body>
+
+</html>
